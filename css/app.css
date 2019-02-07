@@ -1,0 +1,124 @@
+
+body {
+    background-color: #fff;
+    margin: 30px;
+    font-family: poppins,sans-serif;
+}
+
+
+.home-banner {
+    width: 100%;
+    height: 600px;
+    background: #D0E7FF;
+    background-attachment: fixed;
+}
+ul{
+    position:static;
+    list-style-type: none;
+    background-color: #ffb016;
+    height:500px;
+    width:100%;
+    margin-left:30px;
+    margin-top:30px;
+
+}
+.home-banner li{
+    margin: 20px 30px 0 35px;
+    
+}
+.home-banner a {
+    color: #000000;
+    font-family: poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+    .home-banner a:hover {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+.active{
+    border-bottom:2px solid #fff;
+}
+.active :hover{
+    color:#000 !important;
+}
+.hero-content {
+    background-color: black;
+    height: 430px;
+    width: 95%;
+    margin: 0 30px;
+    margin-top: 100px;
+    color: white;
+    padding: 50px 70px;
+
+}
+    .hero-content h5 {
+        font-size: 22px;
+        font-style: italic;
+        margin-bottom: 10px;
+        font-weight: 600;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.hero-content h2{
+    font-size:75px;
+    color: #ffb016;
+    margin-bottom: -10px;
+    font-weight:600;
+    line-height: 1.1;
+    margin-left: -5px;
+}
+.hero-content h3 {
+    margin-bottom: 15px;
+    font-size: 23px;
+    font-weight:600;
+    padding-top:10px;
+
+}
+.contact-information a {
+    color: #828282;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.hero-content .contact-information a img {
+    margin-right: 15px;
+    display: inline-block;
+    height: auto;
+}
+.contact-information a:hover {
+    color: #ffb016;
+}
+.social-information i {
+    color: #ffb016;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.social-information .fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+title{
+    margin-top:20px;
+}
+
+    .available {
+        background-color: #ffb016;
+        width: 87%;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+.available h6 {
+    padding: 15px;
+    font-family: poppins,sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
